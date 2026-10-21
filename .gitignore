@@ -1,0 +1,17 @@
+# 敏感配置——真实 API Key 绝不入库
+api_config.json
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地运行产物
+logs/
+*.log

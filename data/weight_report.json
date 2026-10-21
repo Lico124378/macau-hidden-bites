@@ -1,0 +1,336 @@
+{
+  "export_time": "2026-07-09T12:49:24.856067",
+  "version": "1.0.0",
+  "summary": {
+    "total_interactions": 0,
+    "learning_progress": "converging",
+    "learning_stability": "99.72%"
+  },
+  "global_weights": {
+    "distance": 0.2364,
+    "rating": 0.4099,
+    "price": 0.2455,
+    "convenience": 0.1082
+  },
+  "category_weights": {
+    "支付": 0.049905696260392936,
+    "空间": 0.11733977212134908,
+    "时间": 0.2720439673761143,
+    "交通": 0.09855769894826162,
+    "体验": 0.26571793822688494,
+    "排队": 0.19643492706699694
+  },
+  "sub_dimensions": {
+    "wechat_pay": {
+      "category": "支付",
+      "weight": 0.14333333333333337,
+      "alpha": 33,
+      "beta": 69,
+      "expected_weight": 0.3235294117647059,
+      "gradient_avg": 0.0020000000000000018,
+      "last_update": null
+    },
+    "alipay": {
+      "category": "支付",
+      "weight": 0.1900000000000001,
+      "alpha": 43,
+      "beta": 59,
+      "expected_weight": 0.4215686274509804,
+      "gradient_avg": 0.0006666666666666686,
+      "last_update": null
+    },
+    "mpay": {
+      "category": "支付",
+      "weight": 0.14666666666666683,
+      "alpha": 42,
+      "beta": 60,
+      "expected_weight": 0.4117647058823529,
+      "gradient_avg": 0.0010000000000000015,
+      "last_update": null
+    },
+    "cash_only": {
+      "category": "支付",
+      "weight": 0.0433333333333334,
+      "alpha": 22,
+      "beta": 80,
+      "expected_weight": 0.21568627450980393,
+      "gradient_avg": -0.0009999999999999994,
+      "last_update": null
+    },
+    "seating": {
+      "category": "空间",
+      "weight": 0.13,
+      "alpha": 37,
+      "beta": 65,
+      "expected_weight": 0.3627450980392157,
+      "gradient_avg": 0.0013333333333333324,
+      "last_update": null
+    },
+    "takeaway": {
+      "category": "空间",
+      "weight": 0.04333333333333334,
+      "alpha": 24,
+      "beta": 78,
+      "expected_weight": 0.23529411764705882,
+      "gradient_avg": -0.002666666666666665,
+      "last_update": null
+    },
+    "air_conditioning": {
+      "category": "空间",
+      "weight": 0.11499999999999999,
+      "alpha": 43,
+      "beta": 59,
+      "expected_weight": 0.4215686274509804,
+      "gradient_avg": 0.0003333333333333334,
+      "last_update": null
+    },
+    "open_match": {
+      "category": "时间",
+      "weight": 0.21666666666666667,
+      "alpha": 39,
+      "beta": 63,
+      "expected_weight": 0.38235294117647056,
+      "gradient_avg": 0.0013333333333333348,
+      "last_update": null
+    },
+    "peak_avoid": {
+      "category": "时间",
+      "weight": 0.1,
+      "alpha": 1,
+      "beta": 101,
+      "expected_weight": 0.00980392156862745,
+      "gradient_avg": 0.0,
+      "last_update": null
+    },
+    "near_bus": {
+      "category": "交通",
+      "weight": 0.035,
+      "alpha": 40,
+      "beta": 62,
+      "expected_weight": 0.39215686274509803,
+      "gradient_avg": -0.001,
+      "last_update": null
+    },
+    "has_parking": {
+      "category": "交通",
+      "weight": 0.1700000000000001,
+      "alpha": 42,
+      "beta": 60,
+      "expected_weight": 0.4117647058823529,
+      "gradient_avg": 1.5265566588595903e-18,
+      "last_update": null
+    },
+    "easy_find": {
+      "category": "体验",
+      "weight": 0.18633333333333324,
+      "alpha": 27,
+      "beta": 75,
+      "expected_weight": 0.2647058823529412,
+      "gradient_avg": 0.0009733333333333336,
+      "last_update": null
+    },
+    "language_cn": {
+      "category": "体验",
+      "weight": 0.05,
+      "alpha": 1,
+      "beta": 101,
+      "expected_weight": 0.00980392156862745,
+      "gradient_avg": 0.0,
+      "last_update": null
+    },
+    "language_en": {
+      "category": "体验",
+      "weight": 0.10333333333333339,
+      "alpha": 41,
+      "beta": 61,
+      "expected_weight": 0.4019607843137255,
+      "gradient_avg": 0.0007000000000000014,
+      "last_update": null
+    },
+    "low_wait": {
+      "category": "排队",
+      "weight": 0.12083333333333311,
+      "alpha": 21,
+      "beta": 81,
+      "expected_weight": 0.20588235294117646,
+      "gradient_avg": -0.00043333333333333386,
+      "last_update": null
+    },
+    "wait_acceptable": {
+      "category": "排队",
+      "weight": 0.10999999999999999,
+      "alpha": 39,
+      "beta": 63,
+      "expected_weight": 0.38235294117647056,
+      "gradient_avg": 0.0008333333333333328,
+      "last_update": null
+    }
+  },
+  "user_type_vectors": {
+    "游客型": {
+      "vector": [
+        0.08825596829727503,
+        0.04059870401716636,
+        0.04177484509522579,
+        0.005906538897763502,
+        0.09231174377740181,
+        0.0069408320290592854,
+        0.06808680003881606,
+        0.07183031210468231,
+        0.08590971594907025,
+        0.075307754712294,
+        0.04059870401716636,
+        0.08866140831954289,
+        0.09559633127746982,
+        0.057634052772379075,
+        0.06527853398239335,
+        0.075307754712294
+      ],
+      "top_3_dims": [
+        "language_cn",
+        "seating",
+        "easy_find"
+      ],
+      "bottom_3_dims": [
+        "cash_only",
+        "takeaway",
+        "alipay"
+      ],
+      "key_convenience": [
+        "seating",
+        "language_cn"
+      ]
+    },
+    "街坊型": {
+      "vector": [
+        0.09504424943235171,
+        0.030485135346624455,
+        0.0456033907486353,
+        0.0059018336163291435,
+        0.08881523492846662,
+        0.012742723990258898,
+        0.06277249960854413,
+        0.09177143384753064,
+        0.07458229433561106,
+        0.08023373727488928,
+        0.03048517017306975,
+        0.08650059100380265,
+        0.09505986387046376,
+        0.058261216710517115,
+        0.06745249322087772,
+        0.07428813189202772
+      ],
+      "top_3_dims": [
+        "language_cn",
+        "wechat_pay",
+        "open_match"
+      ],
+      "bottom_3_dims": [
+        "cash_only",
+        "takeaway",
+        "alipay"
+      ],
+      "key_convenience": [
+        "wechat_pay",
+        "open_match",
+        "language_cn"
+      ]
+    },
+    "探索型": {
+      "vector": [
+        0.06498909505219268,
+        0.06243818302446143,
+        0.06541614891070903,
+        0.008840147792507492,
+        0.0739948868112432,
+        0.017297667994981458,
+        0.07242423572717004,
+        0.07613083572952768,
+        0.07245017140285737,
+        0.05142632778176336,
+        0.06243818302446143,
+        0.07673544071833333,
+        0.08256699361427444,
+        0.06867812318921747,
+        0.0631586503027423,
+        0.0810149089235573
+      ],
+      "top_3_dims": [
+        "language_cn",
+        "wait_acceptable",
+        "easy_find"
+      ],
+      "bottom_3_dims": [
+        "cash_only",
+        "takeaway",
+        "near_bus"
+      ],
+      "key_convenience": []
+    },
+    "效率型": {
+      "vector": [
+        0.04645785421848345,
+        0.03886963481503801,
+        0.08614951583917466,
+        0.026581365934821886,
+        0.09504354951973648,
+        0.05058705228836003,
+        0.06778972556768606,
+        0.02756663098715496,
+        0.07722098902573747,
+        0.05366351973055771,
+        0.03886963481503801,
+        0.08970117600995456,
+        0.09671497266751147,
+        0.089521376627741,
+        0.055791121965732784,
+        0.05947187998727147
+      ],
+      "top_3_dims": [
+        "language_cn",
+        "seating",
+        "easy_find"
+      ],
+      "bottom_3_dims": [
+        "cash_only",
+        "open_match",
+        "alipay"
+      ],
+      "key_convenience": [
+        "mpay",
+        "seating",
+        "easy_find",
+        "language_cn",
+        "language_en"
+      ]
+    }
+  },
+  "top_5_dimensions": [
+    {
+      "name": "alipay",
+      "weight": 0.19
+    },
+    {
+      "name": "easy_find",
+      "weight": 0.186
+    },
+    {
+      "name": "has_parking",
+      "weight": 0.17
+    },
+    {
+      "name": "mpay",
+      "weight": 0.147
+    },
+    {
+      "name": "wechat_pay",
+      "weight": 0.143
+    }
+  ],
+  "user_type_hit_rates": {
+    "游客型": 0.6842,
+    "街坊型": 0.44,
+    "探索型": 0.3889,
+    "效率型": 0.6
+  }
+}

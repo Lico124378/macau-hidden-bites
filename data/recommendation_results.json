@@ -1,0 +1,498 @@
+{
+  "export_time": "2026-07-09T12:49:24.858263",
+  "version": "1.0.0",
+  "recommendations": {
+    "游客型_正常时段": {
+      "user_type": "游客型",
+      "scene": "正常时段",
+      "recommended_ids": [
+        "MP013",
+        "MP020",
+        "MP007"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP013",
+          "name": "威尼斯人米其林餐厅",
+          "address": "路氹金光大道威尼斯人度假村",
+          "rating": 4.9,
+          "avg_price": 320,
+          "food_tags": "葡国鸡;海鲜;马介休",
+          "convenience_tags": "有座位;有空调;米其林星级",
+          "score": 0.451
+        },
+        {
+          "shop_id": "MP020",
+          "name": "银河度假村日料店",
+          "address": "路氹城银河度假村一楼",
+          "rating": 4.6,
+          "avg_price": 268,
+          "food_tags": "日料;刺身;寿司",
+          "convenience_tags": "有座位;有空调;高品质食材",
+          "score": 0.439
+        },
+        {
+          "shop_id": "MP007",
+          "name": "关闸关口早餐档",
+          "address": "澳门关闸马路15号",
+          "rating": 3.9,
+          "avg_price": 28,
+          "food_tags": "茶餐厅常餐;猪扒包;糯米饭",
+          "convenience_tags": "近公交站;有座位",
+          "score": 0.437
+        }
+      ]
+    },
+    "游客型_高峰时段": {
+      "user_type": "游客型",
+      "scene": "高峰时段",
+      "recommended_ids": [
+        "MP016",
+        "MP015",
+        "MP003"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP016",
+          "name": "新濠天地自助餐厅",
+          "address": "路氹城新濠天地二楼",
+          "rating": 4.5,
+          "avg_price": 288,
+          "food_tags": "自助餐;海鲜;烧烤",
+          "convenience_tags": "有座位;有空调;自助餐",
+          "score": 0.431
+        },
+        {
+          "shop_id": "MP015",
+          "name": "路环黑沙滩烧烤摊",
+          "address": "路环黑沙滩海滩旁",
+          "rating": 3.7,
+          "avg_price": 75,
+          "food_tags": "烧烤;海鲜;小食",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.407
+        },
+        {
+          "shop_id": "MP003",
+          "name": "议事亭前地葡国菜",
+          "address": "澳门议事亭前地7号",
+          "rating": 4.6,
+          "avg_price": 168,
+          "food_tags": "葡国鸡;马介休;非洲鸡",
+          "convenience_tags": "有座位;有空调;近公交站",
+          "score": 0.385
+        }
+      ]
+    },
+    "游客型_深夜时段": {
+      "user_type": "游客型",
+      "scene": "深夜时段",
+      "recommended_ids": [
+        "MP008",
+        "MP017",
+        "MP016"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP008",
+          "name": "祐汉新村烧腊饭",
+          "address": "澳门祐汉新村第一街33号",
+          "rating": 4.3,
+          "avg_price": 35,
+          "food_tags": "叉烧包;烧卖;炒饭",
+          "convenience_tags": "近公交站;有座位",
+          "score": 0.465
+        },
+        {
+          "shop_id": "MP017",
+          "name": "氹仔花城粥品老店",
+          "address": "氹仔花城大马路8号",
+          "rating": 4.4,
+          "avg_price": 30,
+          "food_tags": "海鲜粥;水蟹粥;牛腩面",
+          "convenience_tags": "近公交站;有座位",
+          "score": 0.4
+        },
+        {
+          "shop_id": "MP016",
+          "name": "新濠天地自助餐厅",
+          "address": "路氹城新濠天地二楼",
+          "rating": 4.5,
+          "avg_price": 288,
+          "food_tags": "自助餐;海鲜;烧烤",
+          "convenience_tags": "有座位;有空调;自助餐",
+          "score": 0.376
+        }
+      ]
+    },
+    "街坊型_正常时段": {
+      "user_type": "街坊型",
+      "scene": "正常时段",
+      "recommended_ids": [
+        "MP004",
+        "MP013",
+        "MP018"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP004",
+          "name": "下环街猪脚姜老铺",
+          "address": "澳门下环街45号",
+          "rating": 4.2,
+          "avg_price": 22,
+          "food_tags": "猪脚姜;牛杂;碗仔翅",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.43
+        },
+        {
+          "shop_id": "MP013",
+          "name": "威尼斯人米其林餐厅",
+          "address": "路氹金光大道威尼斯人度假村",
+          "rating": 4.9,
+          "avg_price": 320,
+          "food_tags": "葡国鸡;海鲜;马介休",
+          "convenience_tags": "有座位;有空调;米其林星级",
+          "score": 0.401
+        },
+        {
+          "shop_id": "MP018",
+          "name": "路氹城夜市咖喱档",
+          "address": "路氹城夜市街区A5号",
+          "rating": 3.6,
+          "avg_price": 20,
+          "food_tags": "咖喱鱼蛋;三拼萝卜糕肠粉;碗仔翅",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.398
+        }
+      ]
+    },
+    "街坊型_高峰时段": {
+      "user_type": "街坊型",
+      "scene": "高峰时段",
+      "recommended_ids": [
+        "MP004",
+        "MP018",
+        "MP005"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP004",
+          "name": "下环街猪脚姜老铺",
+          "address": "澳门下环街45号",
+          "rating": 4.2,
+          "avg_price": 22,
+          "food_tags": "猪脚姜;牛杂;碗仔翅",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.444
+        },
+        {
+          "shop_id": "MP018",
+          "name": "路氹城夜市咖喱档",
+          "address": "路氹城夜市街区A5号",
+          "rating": 3.6,
+          "avg_price": 20,
+          "food_tags": "咖喱鱼蛋;三拼萝卜糕肠粉;碗仔翅",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.439
+        },
+        {
+          "shop_id": "MP005",
+          "name": "妈阁庙前海鲜粥档",
+          "address": "澳门妈阁庙前地23号",
+          "rating": 4.1,
+          "avg_price": 68,
+          "food_tags": "海鲜粥;水蟹粥;炒饭",
+          "convenience_tags": "近公交站;有座位",
+          "score": 0.439
+        }
+      ]
+    },
+    "街坊型_深夜时段": {
+      "user_type": "街坊型",
+      "scene": "深夜时段",
+      "recommended_ids": [
+        "MP019",
+        "MP006",
+        "MP015"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP019",
+          "name": "路环竹湾海滩餐厅",
+          "address": "路环竹湾海滩路1号",
+          "rating": 4.3,
+          "avg_price": 145,
+          "food_tags": "海鲜;葡国鸡;烧烤",
+          "convenience_tags": "有座位;有空调;海滩景观",
+          "score": 0.403
+        },
+        {
+          "shop_id": "MP006",
+          "name": "高士德网红芝士蛋糕",
+          "address": "澳门高士德大马路88号",
+          "rating": 4.4,
+          "avg_price": 58,
+          "food_tags": "芝士蛋糕;杨枝甘露;甜品",
+          "convenience_tags": "有座位;有空调",
+          "score": 0.392
+        },
+        {
+          "shop_id": "MP015",
+          "name": "路环黑沙滩烧烤摊",
+          "address": "路环黑沙滩海滩旁",
+          "rating": 3.7,
+          "avg_price": 75,
+          "food_tags": "烧烤;海鲜;小食",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.385
+        }
+      ]
+    },
+    "探索型_正常时段": {
+      "user_type": "探索型",
+      "scene": "正常时段",
+      "recommended_ids": [
+        "MP003",
+        "MP020",
+        "MP011"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP003",
+          "name": "议事亭前地葡国菜",
+          "address": "澳门议事亭前地7号",
+          "rating": 4.6,
+          "avg_price": 168,
+          "food_tags": "葡国鸡;马介休;非洲鸡",
+          "convenience_tags": "有座位;有空调;近公交站",
+          "score": 0.469
+        },
+        {
+          "shop_id": "MP020",
+          "name": "银河度假村日料店",
+          "address": "路氹城银河度假村一楼",
+          "rating": 4.6,
+          "avg_price": 268,
+          "food_tags": "日料;刺身;寿司",
+          "convenience_tags": "有座位;有空调;高品质食材",
+          "score": 0.412
+        },
+        {
+          "shop_id": "MP011",
+          "name": "官也街大利来记猪扒包",
+          "address": "氹仔官也街28号",
+          "rating": 4.3,
+          "avg_price": 48,
+          "food_tags": "猪扒包;猪扒类;小食",
+          "convenience_tags": "可打包;近公交站",
+          "score": 0.409
+        }
+      ]
+    },
+    "探索型_高峰时段": {
+      "user_type": "探索型",
+      "scene": "高峰时段",
+      "recommended_ids": [
+        "MP020",
+        "MP018",
+        "MP011"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP020",
+          "name": "银河度假村日料店",
+          "address": "路氹城银河度假村一楼",
+          "rating": 4.6,
+          "avg_price": 268,
+          "food_tags": "日料;刺身;寿司",
+          "convenience_tags": "有座位;有空调;高品质食材",
+          "score": 0.461
+        },
+        {
+          "shop_id": "MP018",
+          "name": "路氹城夜市咖喱档",
+          "address": "路氹城夜市街区A5号",
+          "rating": 3.6,
+          "avg_price": 20,
+          "food_tags": "咖喱鱼蛋;三拼萝卜糕肠粉;碗仔翅",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.422
+        },
+        {
+          "shop_id": "MP011",
+          "name": "官也街大利来记猪扒包",
+          "address": "氹仔官也街28号",
+          "rating": 4.3,
+          "avg_price": 48,
+          "food_tags": "猪扒包;猪扒类;小食",
+          "convenience_tags": "可打包;近公交站",
+          "score": 0.418
+        }
+      ]
+    },
+    "探索型_深夜时段": {
+      "user_type": "探索型",
+      "scene": "深夜时段",
+      "recommended_ids": [
+        "MP013",
+        "MP010",
+        "MP017"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP013",
+          "name": "威尼斯人米其林餐厅",
+          "address": "路氹金光大道威尼斯人度假村",
+          "rating": 4.9,
+          "avg_price": 320,
+          "food_tags": "葡国鸡;海鲜;马介休",
+          "convenience_tags": "有座位;有空调;米其林星级",
+          "score": 0.454
+        },
+        {
+          "shop_id": "MP010",
+          "name": "渔人码头海景餐厅",
+          "address": "澳门孙逸仙大马路渔人码头A座",
+          "rating": 4.7,
+          "avg_price": 195,
+          "food_tags": "海鲜;葡国鸡;马介休",
+          "convenience_tags": "有座位;有空调;海景位",
+          "score": 0.403
+        },
+        {
+          "shop_id": "MP017",
+          "name": "氹仔花城粥品老店",
+          "address": "氹仔花城大马路8号",
+          "rating": 4.4,
+          "avg_price": 30,
+          "food_tags": "海鲜粥;水蟹粥;牛腩面",
+          "convenience_tags": "近公交站;有座位",
+          "score": 0.397
+        }
+      ]
+    },
+    "效率型_正常时段": {
+      "user_type": "效率型",
+      "scene": "正常时段",
+      "recommended_ids": [
+        "MP006",
+        "MP005",
+        "MP009"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP006",
+          "name": "高士德网红芝士蛋糕",
+          "address": "澳门高士德大马路88号",
+          "rating": 4.4,
+          "avg_price": 58,
+          "food_tags": "芝士蛋糕;杨枝甘露;甜品",
+          "convenience_tags": "有座位;有空调",
+          "score": 0.46
+        },
+        {
+          "shop_id": "MP005",
+          "name": "妈阁庙前海鲜粥档",
+          "address": "澳门妈阁庙前地23号",
+          "rating": 4.1,
+          "avg_price": 68,
+          "food_tags": "海鲜粥;水蟹粥;炒饭",
+          "convenience_tags": "近公交站;有座位",
+          "score": 0.455
+        },
+        {
+          "shop_id": "MP009",
+          "name": "荷兰园流沙包店",
+          "address": "澳门荷兰园大马路56号",
+          "rating": 4.0,
+          "avg_price": 25,
+          "food_tags": "流沙包;虾饺;烧卖",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.415
+        }
+      ]
+    },
+    "效率型_高峰时段": {
+      "user_type": "效率型",
+      "scene": "高峰时段",
+      "recommended_ids": [
+        "MP010",
+        "MP001",
+        "MP006"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP010",
+          "name": "渔人码头海景餐厅",
+          "address": "澳门孙逸仙大马路渔人码头A座",
+          "rating": 4.7,
+          "avg_price": 195,
+          "food_tags": "海鲜;葡国鸡;马介休",
+          "convenience_tags": "有座位;有空调;海景位",
+          "score": 0.452
+        },
+        {
+          "shop_id": "MP001",
+          "name": "大三巴咖喱鱼蛋铺",
+          "address": "澳门大三巴斜巷12号",
+          "rating": 3.8,
+          "avg_price": 18,
+          "food_tags": "咖喱鱼蛋;三拼萝卜糕肠粉;碗仔翅",
+          "convenience_tags": "近公交站;可打包",
+          "score": 0.441
+        },
+        {
+          "shop_id": "MP006",
+          "name": "高士德网红芝士蛋糕",
+          "address": "澳门高士德大马路88号",
+          "rating": 4.4,
+          "avg_price": 58,
+          "food_tags": "芝士蛋糕;杨枝甘露;甜品",
+          "convenience_tags": "有座位;有空调",
+          "score": 0.411
+        }
+      ]
+    },
+    "效率型_深夜时段": {
+      "user_type": "效率型",
+      "scene": "深夜时段",
+      "recommended_ids": [
+        "MP016",
+        "MP019",
+        "MP005"
+      ],
+      "shops": [
+        {
+          "shop_id": "MP016",
+          "name": "新濠天地自助餐厅",
+          "address": "路氹城新濠天地二楼",
+          "rating": 4.5,
+          "avg_price": 288,
+          "food_tags": "自助餐;海鲜;烧烤",
+          "convenience_tags": "有座位;有空调;自助餐",
+          "score": 0.398
+        },
+        {
+          "shop_id": "MP019",
+          "name": "路环竹湾海滩餐厅",
+          "address": "路环竹湾海滩路1号",
+          "rating": 4.3,
+          "avg_price": 145,
+          "food_tags": "海鲜;葡国鸡;烧烤",
+          "convenience_tags": "有座位;有空调;海滩景观",
+          "score": 0.396
+        },
+        {
+          "shop_id": "MP005",
+          "name": "妈阁庙前海鲜粥档",
+          "address": "澳门妈阁庙前地23号",
+          "rating": 4.1,
+          "avg_price": 68,
+          "food_tags": "海鲜粥;水蟹粥;炒饭",
+          "convenience_tags": "近公交站;有座位",
+          "score": 0.355
+        }
+      ]
+    }
+  }
+}

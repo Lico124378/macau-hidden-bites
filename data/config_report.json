@@ -1,0 +1,93 @@
+{
+  "export_time": "2026-07-09T12:49:24.948091",
+  "project_info": {
+    "name": "巷味濠江 Macau Hidden Bites",
+    "version": "1.0.0",
+    "description": "澳门街巷餐饮智能推荐系统",
+    "team": "UM-琢光",
+    "competition": "千模百炼 AI 开发者系列之学生竞赛"
+  },
+  "data_summary": {
+    "total_shops": 20,
+    "shops_by_region": {
+      "澳门半岛": 20,
+      "离岛": 0
+    },
+    "avg_rating": 4.29,
+    "avg_price": 94,
+    "price_range": {
+      "min": 18,
+      "max": 320
+    }
+  },
+  "system_config": {
+    "recommendation": {
+      "max_results": 3,
+      "max_distance_km": 3.0,
+      "scoring_method": "thompson_sampling_convenience"
+    },
+    "learning": {
+      "enabled": true,
+      "method": "online_gradient_descent",
+      "update_frequency": "per_interaction"
+    }
+  },
+  "convenience_dimensions": {
+    "total": 16,
+    "categories": [
+      "时间",
+      "支付",
+      "可达",
+      "空间",
+      "服务",
+      "其他"
+    ],
+    "details": {
+      "时间": [
+        "open_now",
+        "avg_wait_time_peak"
+      ],
+      "支付": [
+        "wechat_pay",
+        "alipay",
+        "mpay",
+        "cash"
+      ],
+      "可达": [
+        "easy_find",
+        "has_parking"
+      ],
+      "空间": [
+        "seat_count",
+        "near_metro"
+      ],
+      "服务": [
+        "language_mandarin",
+        "language_english",
+        "takeaway",
+        "booking"
+      ],
+      "其他": [
+        "wifi"
+      ]
+    }
+  },
+  "performance_metrics": {
+    "avg_recommend_time_ms": 3.65,
+    "avg_learning_time_ms": 2.09,
+    "test_pass_rate": "95%",
+    "learning_stability": "98.76%"
+  },
+  "file_structure": [
+    "agent.json",
+    "cli_interface.py",
+    "web_api.py",
+    "recommendation_engine.py",
+    "convenience_learning_system.py",
+    "tests.py",
+    "README.md",
+    "DEPLOYMENT.md",
+    "MEMORY.md",
+    "requirements.txt"
+  ]
+}

@@ -1,0 +1,25 @@
+﻿# 巷味濠江 Macau Hidden Bites
+# Python 依赖包
+
+# 核心依赖
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Web API (可选，用于部署在线服务)
+flask>=2.0.0
+flask-cors>=3.0.10
+
+# 测试
+pytest>=6.0.0
+
+# 数据处理
+scikit-learn>=0.24.0
+
+# 真实数据接入 (可选)
+requests>=2.26.0
+
+# 缓存 (可选)
+redis>=4.0.0
+
+# 日志
+colorlog>=6.0.0

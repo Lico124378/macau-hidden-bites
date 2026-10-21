@@ -1,0 +1,65 @@
+{
+  "data_sources": {
+    "gaode_map": {
+      "enabled": true,
+      "api_key": "YOUR_GAODE_MAP_API_KEY",
+      "base_url": "https://restapi.amap.com/v3",
+      "endpoints": {
+        "place_search": "/place/text",
+        "place_detail": "/place/detail",
+        "geocode": "/geocode/geo"
+      },
+      "rate_limit": 100,
+      "cache_ttl_hours": 24
+    },
+    "dianping": {
+      "enabled": true,
+      "api_key": "YOUR_DIANPING_API_KEY",
+      "api_secret": "YOUR_DIANPING_API_SECRET",
+      "base_url": "https://api.dianping.com/v1",
+      "endpoints": {
+        "shop_search": "/shop/search",
+        "shop_detail": "/shop/detail",
+        "shop_reviews": "/shop/reviews"
+      },
+      "rate_limit": 50
+    },
+    "xiaohongshu": {
+      "enabled": false,
+      "note": "小红书无官方API，需使用第三方服务或爬虫",
+      "alternative": "手动采集或第三方数据服务"
+    }
+  },
+  "sync_config": {
+    "auto_sync": true,
+    "sync_interval_hours": 6,
+    "full_sync_interval_days": 7,
+    "max_concurrent_requests": 5
+  },
+  "data_quality": {
+    "min_review_count": 10,
+    "rating_outlier_threshold": 0.5,
+    "price_validation": true,
+    "coordinate_precision": 6
+  },
+  "mapping": {
+    "food_type_mapping": {
+      "云吞面": "noodle",
+      "咖喱汤面": "noodle",
+      "猪扒面": "noodle",
+      "牛腩面": "noodle",
+      "咖喱鱼蛋": "curry",
+      "甜品": "dessert",
+      "双皮奶": "dessert",
+      "蛋挞": "dessert",
+      "葡国鸡": "portuguese",
+      "马介休": "portuguese",
+      "海鲜": "seafood"
+    },
+    "price_level_mapping": {
+      "low": {"min": 0, "max": 50},
+      "medium": {"min": 50, "max": 100},
+      "high": {"min": 100, "max": 9999}
+    }
+  }
+}
